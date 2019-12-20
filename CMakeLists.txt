@@ -36,6 +36,8 @@ if(WIN32)
 			COMPILE_PDB_OUTPUT_DIRECTORY ${PROJECT_BINARY_DIR}
 			COMPILE_PDB_NAME crossguid
 			COMPILE_PDB_NAME_DEBUG crossguidd
+			OUTPUT_NAME crossguid
+			OUTPUT_NAME_DEBUG crossguidd
 	)
   install(FILES ${PROJECT_BINARY_DIR}/RelWithDebInfo/crossguid.pdb DESTINATION lib CONFIGURATIONS RelWithDebInfo)
   install(FILES ${PROJECT_BINARY_DIR}/Debug/crossguidd.pdb DESTINATION lib CONFIGURATIONS Debug)
