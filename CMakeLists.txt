@@ -76,7 +76,7 @@ install(TARGETS crossguid EXPORT crossguid
 
 install(FILES
   ${CMAKE_CURRENT_SOURCE_DIR}/guid.hpp
-  DESTINATION include)
+  DESTINATION include/crossguid)
 
 install(EXPORT crossguid
   FILE
